@@ -10,6 +10,7 @@ go.sum
 main
 
 .env
+*.sh
 
 # Arquivos de teste
 *.test
