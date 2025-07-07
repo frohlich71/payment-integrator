@@ -1,0 +1,58 @@
+# Arquivos de dependências Go
+go.sum
+
+# Binários
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+.env
+
+# Arquivos de teste
+*.test
+*.out
+
+# Arquivos de configuração local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Dados de desenvolvimento
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Dados de volume do Docker
+postgres_data/
+redis_data/
